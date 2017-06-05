@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6FD9F84-A18E-472D-BA4B-7ED274F5B276}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SQLSoundManagement_BL.BusinessLayer</RootNamespace>
+    <AssemblyName>SQLSoundManagement_BL.BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayer\BusinessObjectBase.cs" />
+    <Compile Include="BusinessLayer\clsAudienceFigure.cs" />
+    <Compile Include="BusinessLayer\clsAudienceFigureFactory.cs" />
+    <Compile Include="BusinessLayer\clsEmergentiFactory.Custom.cs" />
+    <Compile Include="BusinessLayer\clsEmergentiKeys.cs" />
+    <Compile Include="BusinessLayer\clsPromotion.cs" />
+    <Compile Include="BusinessLayer\clsPromotionFactory.cs" />
+    <Compile Include="BusinessLayer\clsRecognized.cs" />
+    <Compile Include="BusinessLayer\clsRecognizedCustom.cs" />
+    <Compile Include="BusinessLayer\clsShazam.cs" />
+    <Compile Include="BusinessLayer\clsShazamFactory.cs" />
+    <Compile Include="BusinessLayer\clsSongsFactory.Custom.cs" />
+    <Compile Include="BusinessLayer\clsCompaniesFactory.Custom.cs" />
+    <Compile Include="BusinessLayer\clsLabelsFactory.Custom.cs" />
+    <Compile Include="BusinessLayer\clsEmergenti.cs" />
+    <Compile Include="BusinessLayer\clsEmergentiFactory.cs" />
+    <Compile Include="DataLayer\clsAudienceFiguresSql.cs" />
+    <Compile Include="DataLayer\clsEmergentiSql.cs" />
+    <Compile Include="DataLayer\clsLabelsSql.Custom.cs" />
+    <Compile Include="DataLayer\clsPromotionSql.cs" />
+    <Compile Include="DataLayer\clsRecognizedSql.cs" />
+    <Compile Include="DataLayer\clsShazamSql.cs" />
+    <Compile Include="DataLayer\clsSongsSql.Custom.cs" />
+    <Compile Include="DataLayer\clsCompaniesSql.Custom.cs" />
+    <Compile Include="DataLayer\DataLayerBase.cs" />
+    <Compile Include="BusinessLayer\InvalidBusinessObjectException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\BrokenRule.cs" />
+    <Compile Include="Validation\BrokenRulesList.cs" />
+    <Compile Include="Validation\ValidateRuleBase.cs" />
+    <Compile Include="Validation\ValidateRuleNotNull.cs" />
+    <Compile Include="Validation\ValidateRuleRegexMatching.cs" />
+    <Compile Include="Validation\ValidateRuleStringMaxLength.cs" />
+    <Compile Include="Validation\ValidateRuleStringRequired.cs" />
+    <Compile Include="Validation\ValidationRules.cs" />
+    <Compile Include="DataLayer\clsSongsSql.cs" />
+    <Compile Include="BusinessLayer\clsSongs.cs" />
+    <Compile Include="BusinessLayer\clsSongsFactory.cs" />
+    <Compile Include="BusinessLayer\clsSongsKeys.cs" />
+    <Compile Include="DataLayer\clsJP_ADMINSql.cs" />
+    <Compile Include="BusinessLayer\clsJP_ADMIN.cs" />
+    <Compile Include="BusinessLayer\clsJP_ADMINFactory.cs" />
+    <Compile Include="BusinessLayer\clsJP_ADMINKeys.cs" />
+    <Compile Include="DataLayer\clsCompaniesSql.cs" />
+    <Compile Include="BusinessLayer\clsCompanies.cs" />
+    <Compile Include="BusinessLayer\clsCompaniesFactory.cs" />
+    <Compile Include="BusinessLayer\clsCompaniesKeys.cs" />
+    <Compile Include="DataLayer\clsLabelsSql.cs" />
+    <Compile Include="BusinessLayer\clsLabels.cs" />
+    <Compile Include="BusinessLayer\clsLabelsFactory.cs" />
+    <Compile Include="BusinessLayer\clsLabelsKeys.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayer\clsPromotionFactory.Custom.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

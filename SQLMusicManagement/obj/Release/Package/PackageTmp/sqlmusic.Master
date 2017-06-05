@@ -1,0 +1,185 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sqlmusic.master.cs" Inherits="SQLMusicManagement.sqlmusic" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SQL Music Management</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" title="default" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <!-- Start: page-top-outer -->
+            <div id="page-top-outer">
+
+                <!-- Start: page-top -->
+                <div id="page-top">
+
+
+                    <!-- start logo -->
+                    <div id="logo">
+                        <a href="Songs.aspx"></a>
+                    </div>
+                    <!-- end logo -->
+
+                    <!-- start nav-right -->
+                    <div id="nav-right">
+
+                        <div class="showhide-account">
+                            <a href="changepswd.aspx" id="MyAccount">
+                                <img src="images/shared/nav/nav_myaccount.png" width="100" height="28" alt="" /></a>
+                        </div>
+                        <div class="topnav-divider">&nbsp;</div>
+                        <a href="lgt.aspx" id="logout">
+                            <img src="images/shared/nav/nav_logout.png" width="73" height="28" alt="" /></a>
+                        <div class="clear">&nbsp;</div>
+
+                        <!--  start account-content -->
+                        <div class="account-content">
+                            <div class="account-drop-inner">
+                                <a href="changepswd.aspx" id="acc-settings">Settings</a>
+                                <div class="clear">&nbsp;</div>
+                                <div class="acc-line">&nbsp;</div>
+                                <a href="" id="acc-details">Personal details</a>
+                            </div>
+                        </div>
+                        <!--  end account-content -->
+
+                    </div>
+                    <!-- end nav-right -->
+
+                    <div class="clear"></div>
+
+                </div>
+                <!-- End: page-top -->
+
+            </div>
+            <!-- End: page-top-outer -->
+
+            <div class="clear">&nbsp;</div>
+
+            <!--  start nav-outer-repeat................................................................................................. START -->
+            <div class="nav-outer-repeat">
+                <!--  start nav-outer -->
+                <div class="nav-outer">
+                    <!--  start nav -->
+                    <div class="nav" style="width: 100%">
+                        <div class="table" style="width: 100%">
+                            <ul runat="server" id="ManageSongs">
+                                <li id="MainParentSongs"><a class="parent" href="javascript:void(0);"><b>Manage Songs</b></a>
+                                    <ul runat="server" id="SongSubMenu" class="sub-menu">
+                                        <li><a class="child" href="songs.aspx"><b>Songs List</b></a></li>
+                                        <li><a class="child" href="AddSongs.aspx"><b>Add Song</b></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="nav-divider">&nbsp;</div>
+                            <ul runat="server" id="Promoter">
+                                <li><a class="parent" href="Promoter.aspx"><b>Promoter</b></a></li>
+                            </ul>
+                            <div class="nav-divider">&nbsp;</div>
+                            <ul runat="server" id="ManageCompany">
+                                <li id="MainParentComapny"><a class="parent" href="javascript:void(0);"><b>Manage Company</b></a>
+                                    <ul runat="server" id="CompanySubMenu" class="sub-menu">
+                                        <li><a class="child" href="Company.aspx"><b>Companys List</b></a></li>
+                                        <li><a class="child" href="AddCompany.aspx"><b>Add Company</b></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="nav-divider">&nbsp;</div>
+                            <ul runat="server" id="ManageLabel">
+                                <li id="MainParentLabel"><a class="parent" href="javascript:void(0);"><b>Manage Label</b></a>
+                                    <ul runat="server" id="LabelSubMenu" class="sub-menu">
+                                        <li><a class="child" href="Labels.aspx"><b>Labels</b></a></li>
+                                        <li><a class="child" href="AddLabels.aspx"><b>Add Label</b></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="nav-divider">&nbsp;</div>
+                            <ul runat="server" id="ManageEmergenti">
+                                <li id="MainParentEmergenti"><a class="parent" href="javascript:void(0);"><b>Charts</b></a>
+                                    <ul runat="server" id="EmergentiSubMenu" class="sub-menu">
+                                        <li><a class="child" href="Charts.aspx"><b>Emergenti</b></a></li>
+                                        <li><a class="child" href="AddCharts.aspx"><b>Absolute Beginners</b></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="nav-divider">&nbsp;</div>
+                            <ul runat="server" id="ImportData">
+                                <li id="ImportDataParent"><a class="parent" href="javascript:void(0);"><b>Import</b></a>
+                                    <ul runat="server" id="ImportDataSubMenu" class="sub-menu">
+                                        <li><a class="child" href="ImportSongs.aspx"><b>Songs</b></a></li>
+                                        <li><a class="child" href="Recognized.aspx"><b>Recognized</b></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="nav-divider">&nbsp;</div>
+                            <ul runat="server" id="audienceFigures">
+                                <li><a class="parent" href="AudienceFigures.aspx"><b>Audience Figures</b></a></li>
+                            </ul>
+                            <div class="nav-divider">&nbsp;</div>
+                            <ul runat="server" id="digitalData">
+                                <li id="MainParent"><a class="parent" href="javascript:void(0);"><b>Digital Data</b></a>
+                                    <ul runat="server" id="Submenu" class="sub-menu">
+                                        <li><a class="child" href="Shazam.aspx"><b>Shazam</b></a></li>
+                                        <li><a class="child" href="javascript:void(0);"><b>Deezer</b></a></li>
+                                        <li><a class="child" href="javascript:void(0);"><b>TIM Music</b></a></li>
+                                        <li><a class="child" href="javascript:void(0);"><b>Apple Music</b></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="nav-divider">&nbsp;</div>
+                            <ul runat="server" id="MoveFiles" visible="false">
+                                <li><a class="parent" href="MoveFiles.aspx"><b>Move Files</b></a></li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <!--  start nav -->
+
+                </div>
+                <div class="clear"></div>
+                <!--  start nav-outer -->
+            </div>
+            <!--  start nav-outer-repeat................................................... END -->
+
+            <div class="clear"></div>
+
+            <!-- start content-outer ........................................................................................................................START -->
+            <div id="content-outer">
+                <!-- start content -->
+                <div id="content">
+
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+                <div class="clear">&nbsp;</div>
+
+            </div>
+            <!--  end content -->
+            <div class="clear">&nbsp;</div>
+        </div>
+        <!--  end content-outer........................................................END -->
+
+        <div class="clear">&nbsp;</div>
+        <!-- start footer -->
+
+        <div id="footer">
+            <!--  start footer-left -->
+            <div id="footer-left">
+                &copy; Copyright 2014, Radio Airplay Srl - www.radioairplay.fm. All rights reserved.
+            </div>
+            <!--  end footer-left -->
+            <div class="clear">&nbsp;</div>
+        </div>
+        <!-- end footer -->
+    </form>
+</body>
+</html>

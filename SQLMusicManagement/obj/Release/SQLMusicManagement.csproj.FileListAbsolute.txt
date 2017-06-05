@@ -1,0 +1,16 @@
+D:\MYDATA\Projects\SQL MUSIC\SQLMusicManagement\SQLMusicManagement\bin\SQLMusicManagement.dll
+D:\MYDATA\Projects\SQL MUSIC\SQLMusicManagement\SQLMusicManagement\bin\SQLMusicManagement.pdb
+D:\MYDATA\Projects\SQL MUSIC\SQLMusicManagement\SQLMusicManagement\bin\AjaxMin.dll
+D:\MYDATA\Projects\SQL MUSIC\SQLMusicManagement\SQLMusicManagement\bin\SQLSoundManagement_BL.BusinessLayer.dll
+D:\MYDATA\Projects\SQL MUSIC\SQLMusicManagement\SQLMusicManagement\bin\SQLSoundManagement_BL.BusinessLayer.pdb
+D:\MYDATA\Projects\SQL MUSIC\SQLMusicManagement\SQLMusicManagement\obj\Release\SQLMusicManagement.csprojResolveAssemblyReference.cache
+D:\MYDATA\Projects\SQL MUSIC\SQLMusicManagement\SQLMusicManagement\obj\Release\SQLMusicManagement.dll
+D:\MYDATA\Projects\SQL MUSIC\SQLMusicManagement\SQLMusicManagement\obj\Release\SQLMusicManagement.pdb
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLMusicManagement\bin\SQLMusicManagement.dll
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLMusicManagement\bin\SQLMusicManagement.pdb
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLMusicManagement\bin\AjaxMin.dll
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLMusicManagement\bin\SQLSoundManagement_BL.BusinessLayer.dll
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLMusicManagement\bin\SQLSoundManagement_BL.BusinessLayer.pdb
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLMusicManagement\obj\Release\SQLMusicManagement.csprojResolveAssemblyReference.cache
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLMusicManagement\obj\Release\SQLMusicManagement.dll
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLMusicManagement\obj\Release\SQLMusicManagement.pdb

@@ -1,0 +1,4 @@
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLSoundManagement_BL.Business\bin\x86\Debug\SQLSoundManagement_BL.BusinessLayer.dll
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLSoundManagement_BL.Business\bin\x86\Debug\SQLSoundManagement_BL.BusinessLayer.pdb
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLSoundManagement_BL.Business\obj\x86\Debug\SQLSoundManagement_BL.BusinessLayer.dll
+E:\Client Project\RadioPlayAll\Sql Music Management\SQLMusicManagement_OK\SQLMusicManagement_OK\SQLMusicManagement\SQLSoundManagement_BL.Business\obj\x86\Debug\SQLSoundManagement_BL.BusinessLayer.pdb
